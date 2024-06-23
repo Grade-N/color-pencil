@@ -42,5 +42,10 @@ Unlink/remove the library from local/project directory npm, if necessary.
 npm unlink lib-name
 ```
 
+Unlink/remove the library from global npm, if necessary.
+```console
+npm unlink -g lib-name
+```
+
 ## Code of Conduct
 Please adhere to the [Code of Conduct](CODE_OF_CONDUCT.md) when contributing.
