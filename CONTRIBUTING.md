@@ -27,7 +27,7 @@ Once the changes are in place the project must be built.
 ```console
 npm run build
 ```
-## Test
+## Test Functionality
 Link the library to golbal npm.
 ```console
 npm link
@@ -46,6 +46,20 @@ Unlink/remove the library from global npm, if necessary.
 ```console
 npm unlink -g lib-name
 ```
+
+## Test Package Content
+If you are concerned about leaking some secrets, do the followings and check for the files included in the final package.
+
+Create a tarball pack.
+```console
+npm pack
+```
+
+Inspect the tarball pack content.
+```console
+tar -tzf lib-name-version.tgz
+```
+
 
 ## Code of Conduct
 Please adhere to the [Code of Conduct](CODE_OF_CONDUCT.md) when contributing.
