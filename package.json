@@ -16,7 +16,7 @@
   "scripts": {
     "build": "node SrcMaker/Maker/Maker.js && rm -fr dist/* && npx tsc -p tsconfig.json && npx tsc -p tsconfig-cjs.json && ./fixup",
     "init": "npm i && node SrcMaker/Maker/Maker.js",
-    "reamke": "node SrcMaker/Maker/Maker.js"
+    "remake": "node SrcMaker/Maker/Maker.js"
   },
   "repository": {
     "type": "git",

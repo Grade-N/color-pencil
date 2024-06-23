@@ -1,0 +1,64 @@
+{
+  "black": {
+    "light": "245",
+    "default": "232"
+  },
+  "white": {
+    "default": "15"
+  },
+  "blue": {
+    "light": "75",
+    "default": "21",
+    "dark": "18"
+  },
+  "red": {
+    "light": "203",
+    "default": "160",
+    "dark": "124"
+  },
+  "green": {
+    "light": "83",
+    "default": "28",
+    "dark": "22"
+  },
+  "orange": {
+    "light": "223",
+    "default": "208",
+    "dark": "214"
+  },
+  "yellow": {
+    "light": "229",
+    "default": "226",
+    "dark": "220"
+  },
+  "purple": {
+    "light": "141",
+    "default": "93",
+    "dark": "55"
+  },
+  "brown": {
+    "light": "137",
+    "default": "101",
+    "dark": "94"
+  },
+  "magenta": {
+    "light": "201",
+    "default": "200",
+    "dark": "90"
+  },
+  "cyan": {
+    "light": "123",
+    "default": "45",
+    "dark": "36"
+  },
+  "gray": {
+    "light": "145",
+    "default": "102",
+    "dark": "238"
+  },
+  "pink": {
+    "light": "207",
+    "default": "205",
+    "dark": "206"
+  }
+}
